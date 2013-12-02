@@ -1,0 +1,61 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 7c85a6a0584247dc8ebb8f6ed6275f5d40e47523 MANIFEST
+SHA1 9699862aae3bb1620a59ef1708d1068e1998a5fc META.yml
+SHA1 84aabc503def5d887dd38872e6ccb7a33e84de13 Makefile.PL
+SHA1 d11ca07f6ff115d953832d85b50f1af79c9cf878 README
+SHA1 8271964accba9499aa4b6c2fd0ca3495be191f9c html/Admin/Actions/Create.html
+SHA1 b9eb894b39c0516c1e7ddf9bd7a15b4b1bd926a2 html/Admin/Actions/Display.html
+SHA1 4b65c4a64218c455ea7dfefa729874ead161e7cd html/Admin/Actions/Elements/EditBasics
+SHA1 0835dbc84986e6ee0d18b147466567214a4a0c7e html/Admin/Actions/Elements/ShowBasics
+SHA1 4022165ca0f948ae3878d55999cdaa49782869a9 html/Admin/Actions/Modify.html
+SHA1 53baefbba4284c3067d6cf88570f77f09b878fde html/Admin/Actions/autohandler
+SHA1 9d64dc3732c2f8d534c8e70ebf910393071d7a2a html/Admin/Conditions/Create.html
+SHA1 a053aa5a8fd51913b4d5e0df89b921059e6c5673 html/Admin/Conditions/Display.html
+SHA1 a4f4a16ef96ab1b51fae852a6ff677827a7e7cce html/Admin/Conditions/Elements/EditBasics
+SHA1 06a828f3fe7be0e85bac06611019823c39539ffe html/Admin/Conditions/Elements/ShowBasics
+SHA1 6df249aa3046e9a0836b3cb76408dea3ef15ca53 html/Admin/Conditions/Modify.html
+SHA1 991487a27ee148a2f99f2d40a18ceb308dcd477d html/Admin/Conditions/autohandler
+SHA1 8d6d0b6423c8a280819236e9301faac9adce9773 html/Admin/Elements/EditActions
+SHA1 412969fa6c17c1ca875bd63133198121cb477c53 html/Admin/Elements/EditConditions
+SHA1 6b8447fc113b99f46fe6d140f700476c8f96ab0e html/Admin/Global/Actions.html
+SHA1 a6a3ce69784f9e587d1254ae9a7b2986756e5e79 html/Admin/Global/Conditions.html
+SHA1 592d8492c76f344bcab801dd1ebf3abd5a577de9 html/Callbacks/AdminConditionsAndActions/Elements/Tabs/Privileged
+SHA1 81990748c0af8a9c55dcc78b846eaaf22bc7c959 html/Elements/RT__ScripAction/ColumnMap
+SHA1 81990748c0af8a9c55dcc78b846eaaf22bc7c959 html/Elements/RT__ScripCondition/ColumnMap
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 40df6f8d889b52eef379f04af6227f9302b23bf9 inc/Module/Install/RTx.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 7ddb3caf38e982c60b8fd560c608e3e4ff1da535 lib/RT/Extension/AdminConditionsAndActions.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (Darwin)
+
+iQEcBAEBAgAGBQJSnLkZAAoJEBXncVGnZqUU7scIAKBr7tdYXK8x2Mm3QS6w/CFz
+ihx4ElUsYxkDsuSfR4ssPda0usQIIgDipt5MXSvatccyJrQNolhc5gtXMmNVYA0O
+Fael8jyaREAkP1RtMjMccb6E5cmGTu5sbnngvMT22s1b2RTMfRYPCnW+j2HY8IeD
+z+RxQ4JTyA15BKRuURV6wekZap4D3cjpWuwPJn0UJW5Sk84/bZo1Q3LbLOfTMP0M
+36mqGnkkLrdnpfbxdBPC5n94TXVk1jzQmkDr4BoERoWgx61nyuIARkmJreAMDxml
+YglZcjB5RCaIAQU6btQj7IT7VMZN3CihMmYtqqh+B2BPJ3qRCOgCmpIYjBhMwE0=
+=2cZ+
+-----END PGP SIGNATURE-----
