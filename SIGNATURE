@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,10 +14,11 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 7c85a6a0584247dc8ebb8f6ed6275f5d40e47523 MANIFEST
-SHA1 9699862aae3bb1620a59ef1708d1068e1998a5fc META.yml
+SHA1 155e352c9af87d8fa8c6ef74234bde1eeb96af04 Changes
+SHA1 9950aa39052b542028c031a51624704997333652 MANIFEST
+SHA1 0d7fca7742020407a105bc40edd8e90915805795 META.yml
 SHA1 84aabc503def5d887dd38872e6ccb7a33e84de13 Makefile.PL
-SHA1 d11ca07f6ff115d953832d85b50f1af79c9cf878 README
+SHA1 e59f19dbd68fc2920c29a8c7de1df8874b9ad18f README
 SHA1 8271964accba9499aa4b6c2fd0ca3495be191f9c html/Admin/Actions/Create.html
 SHA1 b9eb894b39c0516c1e7ddf9bd7a15b4b1bd926a2 html/Admin/Actions/Display.html
 SHA1 4b65c4a64218c455ea7dfefa729874ead161e7cd html/Admin/Actions/Elements/EditBasics
@@ -43,19 +44,16 @@ SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
 SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
 SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
 SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
-SHA1 40df6f8d889b52eef379f04af6227f9302b23bf9 inc/Module/Install/RTx.pm
+SHA1 ef78e932fb1b2b87e0c8d10f1086907d4b3638dd inc/Module/Install/RTx.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 7ddb3caf38e982c60b8fd560c608e3e4ff1da535 lib/RT/Extension/AdminConditionsAndActions.pm
+SHA1 760ba529771b3dcf357a40256be5677129d54392 lib/RT/Extension/AdminConditionsAndActions.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (Darwin)
+Comment: GPGTools - http://gpgtools.org
 
-iQEcBAEBAgAGBQJSnLkZAAoJEBXncVGnZqUU7scIAKBr7tdYXK8x2Mm3QS6w/CFz
-ihx4ElUsYxkDsuSfR4ssPda0usQIIgDipt5MXSvatccyJrQNolhc5gtXMmNVYA0O
-Fael8jyaREAkP1RtMjMccb6E5cmGTu5sbnngvMT22s1b2RTMfRYPCnW+j2HY8IeD
-z+RxQ4JTyA15BKRuURV6wekZap4D3cjpWuwPJn0UJW5Sk84/bZo1Q3LbLOfTMP0M
-36mqGnkkLrdnpfbxdBPC5n94TXVk1jzQmkDr4BoERoWgx61nyuIARkmJreAMDxml
-YglZcjB5RCaIAQU6btQj7IT7VMZN3CihMmYtqqh+B2BPJ3qRCOgCmpIYjBhMwE0=
-=2cZ+
+iEYEARECAAYFAlM+5GcACgkQ0+gKWp5CJQpGEACdHn7LtfKD8h6eZt8BUNToRbRt
+oTwAnAv2dLwOmuSOn835Nb2yR8oRYaOm
+=8ffh
 -----END PGP SIGNATURE-----

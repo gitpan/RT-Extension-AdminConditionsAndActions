@@ -3,7 +3,7 @@ use warnings;
 
 package RT::Extension::AdminConditionsAndActions;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use RT::ScripCondition;
 no warnings 'redefine';
@@ -106,8 +106,8 @@ You can customize Condition/Action list format by config C<%AdminSearchResultFor
             .q{,'<a href="__WebPath__/Admin/Conditions/Modify.html?id=__id__">__Name__</a>/TITLE:Name'}
             .q{,'__Description__','__UsedBy__},
         Actions =>
-            q{'<a href="__WebPath__/Admin/Conditions/Modify.html?&id=__id__">__id__</a>/TITLE:#'}
-            .q{,'<a href="__WebPath__/Admin/Conditions/Modify.html?id=__id__">__Name__</a>/TITLE:Name'}
+            q{'<a href="__WebPath__/Admin/Actions/Modify.html?&id=__id__">__id__</a>/TITLE:#'}
+            .q{,'<a href="__WebPath__/Admin/Actions/Modify.html?id=__id__">__Name__</a>/TITLE:Name'}
             .q{,'__Description__','__UsedBy__},
     );
 
@@ -373,6 +373,13 @@ the methods available from ticket and transaction objects in your RT
 distribution and on the
 L<"Best Practical website"|http://docs.bestpractical.com>.
 
+=head1 BUGS
+
+All bugs should be reported via email to
+L<bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org|mailto:bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org>
+or via the web at
+L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-AdminConditionsAndActions>.
+
 =head1 AUTHOR
 
 sunnavy <sunnavy@bestpractical.com>
@@ -381,7 +388,7 @@ Jim Brandt <jbrandt@bestpractical.com>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2013 Best Practical Solutions, LLC.
+Copyright 2013,2014 Best Practical Solutions, LLC.
 
 This is free software, licensed under:
 
