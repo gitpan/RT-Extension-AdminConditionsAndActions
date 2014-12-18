@@ -14,11 +14,11 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 77d2a5a7f52ea6b67a0550e2efd2422de1bb2b05 Changes
+SHA1 2f74db16f94458a582afd67d3513730c6a54f5ae Changes
 SHA1 6d8c4c282460e82f3327077aee63b8e1b9c8abfb MANIFEST
-SHA1 cd7fcd9557420eed7985e81188630a1f97247051 META.yml
-SHA1 67fe42e5422a395b787c45070bff45834e14fb92 Makefile.PL
-SHA1 06a3da03d2b5469cadf5c8e09a5c643d659a2c04 README
+SHA1 68dd7df5d0c0186ba288db2a18707e5456e47810 META.yml
+SHA1 38b3e92e0cd1154041f1d0709f854986423a6693 Makefile.PL
+SHA1 6cec7dc6673a010127dd2775822a15698e7efe8e README
 SHA1 8271964accba9499aa4b6c2fd0ca3495be191f9c html/Admin/Actions/Create.html
 SHA1 b9eb894b39c0516c1e7ddf9bd7a15b4b1bd926a2 html/Admin/Actions/Display.html
 SHA1 4b65c4a64218c455ea7dfefa729874ead161e7cd html/Admin/Actions/Elements/EditBasics
@@ -52,11 +52,11 @@ SHA1 f8b2ae3386f6ba26c33408968a953d450842eade inc/Module/Install/Win32.pm
 SHA1 f302bc703d76299cff243e5b44cecd61aac27b76 inc/Module/Install/WriteAll.pm
 SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
 SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
-SHA1 1d7d55d217b5d0d4c6aa04f21f0d53de260b062f lib/RT/Extension/AdminConditionsAndActions.pm
+SHA1 17ce4bc2ee6d3ed127b21b6a56672a88e63dd896 lib/RT/Extension/AdminConditionsAndActions.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEARECAAYFAlSQuB0ACgkQMflWJZZAbqC1dQCgmzDGWmfWkmWrpOU5HY7KFc30
-65sAniJcYOXcOjQD2rhtMHCt5kP9aWXP
-=rEU8
+iEYEARECAAYFAlSTLTMACgkQMflWJZZAbqDJcgCgxFxa9mg49ZMPy4w4wjVgczFa
+YjsAn38RA0p4ahUVRpnppCq8d+X+tZnK
+=2DBH
 -----END PGP SIGNATURE-----

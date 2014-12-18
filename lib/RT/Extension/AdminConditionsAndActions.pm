@@ -3,7 +3,7 @@ use warnings;
 
 package RT::Extension::AdminConditionsAndActions;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use RT::ScripCondition;
 no warnings 'redefine';
@@ -90,7 +90,11 @@ May need root permissions
 
 =item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
 
-Add this line:
+If you are using RT 4.2 or greater, add this line:
+
+    Plugin('RT::Extension::AdminConditionsAndActions');
+
+For RT 4.0, add this line:
 
     Set(@Plugins, qw(RT::Extension::AdminConditionsAndActions));
 
